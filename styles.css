@@ -373,6 +373,10 @@ h6 {
 /* Fim do footer */
 
 @media screen and (max-width:1000px) {
+    main {
+        width: 100vw;
+    }
+
     header {
         padding: 15px;
     }
@@ -398,7 +402,6 @@ h6 {
         padding: 20px;
     }
 
-
     .text-principal p {
         width: 80%;
     }
@@ -421,11 +424,9 @@ h6 {
     }
 
     .img-service {
-
         flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
-
     }
 
     .container-cards {
@@ -456,52 +457,49 @@ h6 {
 
 @media screen and (max-width:430px) {
     .img-nav {
-            width: 155px;
+        width: 155px;
     }
 
-    .lupa, .carrinho {
+    .lupa,
+    .carrinho {
         width: 15px;
         height: 15px;
     }
-
-    h1 {
-        width: 70%;
-        font-size: 28px;
-        line-height: 35px;
-    }
-
-    .text-principal p {
-        width: 75%;
-        font-size: 15px; 
-    }
-
 
     .section-principal {
         align-items: flex-start;
         height: 45vh;
     }
 
-    .img-principal img {
-        width: 50%;
-        position: absolute;
-        left: 65%;
+    h1 {
+        width: 200px;
+        font-size: 25px;
+        line-height: 30px;
     }
 
-    .linha, .linha-1 {
-       display: none;
+    .text-principal p {
+        width: 100%;
+        font-size: 15px;
+    }
 
+    .img-principal img {
+        width: 120%;
+    }
+
+    .linha,
+    .linha-1 {
+        display: none;
     }
 
     .container-footer {
-            flex-direction: column;
-
+        flex-direction: column;
     }
 
     .container-links {
         display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: column;
     }
 
     .link-footer {
