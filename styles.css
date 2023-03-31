@@ -140,7 +140,7 @@ span {
 /* Fim da primeira seção */
 
 /* Início da seção secundária */
-.section-secondary{
+.section-secondary {
     padding: 0 100px 80px;
 }
 
@@ -371,3 +371,148 @@ h6 {
 }
 
 /* Fim do footer */
+
+@media screen and (max-width:1000px) {
+    header {
+        padding: 15px;
+    }
+
+    .text-logo {
+        font-size: 18px;
+    }
+
+    .tigela-logo {
+        width: 31px;
+        height: 25px;
+    }
+
+    .carrinho {
+        margin: 0px 15px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .section-principal {
+        padding: 20px;
+    }
+
+
+    .text-principal p {
+        width: 80%;
+    }
+
+    .linha {
+        bottom: 60%;
+    }
+
+    .linha-1 {
+        bottom: 57%;
+    }
+
+    .img-principal img {
+        width: 100%;
+    }
+
+    .section-secondary,
+    #footer {
+        padding: 20px;
+    }
+
+    .img-service {
+
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+
+    }
+
+    .container-cards {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .cards {
+        margin-left: 0;
+    }
+
+    .image p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .rede-social {
+        width: 300px;
+    }
+
+    .link-footer {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    .img-nav {
+            width: 155px;
+    }
+
+    .lupa, .carrinho {
+        width: 15px;
+        height: 15px;
+    }
+
+    h1 {
+        width: 70%;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .text-principal p {
+        width: 75%;
+        font-size: 15px; 
+    }
+
+
+    .section-principal {
+        align-items: flex-start;
+        height: 45vh;
+    }
+
+    .img-principal img {
+        width: 50%;
+        position: absolute;
+        left: 65%;
+    }
+
+    .linha, .linha-1 {
+       display: none;
+
+    }
+
+    .container-footer {
+            flex-direction: column;
+
+    }
+
+    .container-links {
+        display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    }
+
+    .link-footer {
+        margin-left: 0;
+    }
+
+    h6:first-child {
+        margin-top: 15px;
+    }
+
+    .link {
+        margin: 2px 0;
+    }
+}
