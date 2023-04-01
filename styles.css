@@ -467,7 +467,6 @@ h6 {
     }
 
     .section-principal {
-        align-items: flex-start;
         height: 45vh;
     }
 
@@ -483,7 +482,7 @@ h6 {
     }
 
     .img-principal img {
-        width: 120%;
+        width: 100%;
     }
 
     .linha,
