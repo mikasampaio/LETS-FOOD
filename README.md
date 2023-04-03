@@ -10,8 +10,8 @@ O objetivo deste projeto tem a função de apresentar os pratos e serviços ofer
 </div>
 
 <div align="center">
-<img height="250px" src="./assets/mobile (1).png" alt="smartphone">
-<img height="250px" src="./assets/mobile (2).png" alt="tablet">
+<img height="450px" src="./assets/mobile (1).png" alt="smartphone">
+<img height="450px" src="./assets/mobile (2).png" alt="tablet">
 </div>
 
 <br>
