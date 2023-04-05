@@ -127,14 +127,7 @@ span {
 
 .linha,
 .linha-1 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 179px;
-}
-
-.linha-1 {
-    bottom: 30px;
+    display: none;
 }
 
 /* Fim da primeira seção */
@@ -206,6 +199,7 @@ span {
 /* Início dos cards */
 .container-cards {
     display: flex;
+    justify-content: center;
 }
 
 .cards {
@@ -275,8 +269,10 @@ span {
 
 .image {
     background-image: url(./assets/unsplash_2lWGQ02DGL8.png);
+    background-repeat: no-repeat;
     height: 332px;
     border-radius: 10px;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -404,6 +400,13 @@ h6 {
 
     .text-principal p {
         width: 80%;
+    }
+
+    .linha,
+    .linha-1 {
+        display: block;
+        position: absolute;
+        left: 0;
     }
 
     .linha {
